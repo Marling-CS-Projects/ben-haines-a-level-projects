@@ -5,3 +5,5 @@ Granic, I., Lobel, A. and Rutger C. M. E. Engels (2014). The benefits of playing
 Bavelier, D. and Green, C.S. (2016). The Brain-Boosting Power of Video Games. _Scientific American_, 315(1), pp.26–31.
 
 Nintendo Co., Ltd. (n.d.). _News Release : Sep. 28, 2021 ‘SUPER NINTENDO WORLD EXPANSION WORLD’S FIRST\* DONKEY KONG THEMED AREA SET TO OPEN IN 2024’_. \[online] Available at: [https://www.nintendo.co.jp/corporate/release/en/2021/210928.html](https://www.nintendo.co.jp/corporate/release/en/2021/210928.html)
+
+Gilbert, N. (2020). _Number of Gamers Worldwide 2020: Demographics, Statistics, and Predictions - Financesonline.com_. \[online] financesonline.com. Available at: https://financesonline.com/number-of-gamers-worldwide/
