@@ -24,11 +24,12 @@ In this cycle I aim to create the basic mechanics for my game in Kaboom.js. I ha
 | .Grounded     | Determines whether or not the player is on the ground ready to jump again. |
 | .Jump         | Determines the Height that the player will jump.                           |
 | .Move         | Moves the player                                                           |
+| Pos()         | Position                                                                   |
 
 ### Pseudocode
 
 ```
-
+Spawn Player pos(100,100)
 
 
 Speed = 100
@@ -61,9 +62,41 @@ Evidence for testing
 
 ### Tests
 
-| Test | Instructions  | What I expect     | What actually happens | Pass/Fail |
-| ---- | ------------- | ----------------- | --------------------- | --------- |
-| 1    | Run code      | Thing happens     | As expected           | Pass      |
-| 2    | Press buttons | Something happens | As expected           | Pass      |
+| Test | Instructions  | What I expect       | What actually happens                                                                                        | Pass/Fail |
+| ---- | ------------- | ------------------- | ------------------------------------------------------------------------------------------------------------ | --------- |
+| 1    | Run code      | Player to spawn In  | The Player Spawned as expected.                                                                              | Pass      |
+| 2    | Press buttons | Player to move      | The player does move in both directions and jumps but the sprite  does not flip (this is not too big a deal) | Pass      |
 
 ### Evidence
+
+![Player Spawned into the level.](<../.gitbook/assets/image (6).png>)
+
+{% tabs %}
+{% tab title="First Tab" %}
+```
+const Walt = level.spawn("W", 80, 100)
+
+  const SPEED = 500;
+
+  keyDown("d", () => {
+    if (Walt.isFrozen) return;
+    Walt.flipX(false);    //flipx flips the sprite
+    Walt.move(SPEED, 0);
+  });
+  
+  keyDown("a", () => {
+    if (Walt.isFrozen) return;
+    Walt.flipX(true);
+    if(toScreen(Walt.pos).x > 20) {
+      Walt.move(-SPEED, 0);
+    }
+  });
+
+  keyPress("space", () => {
+   if (Walt.grounded()) {
+      Walt.jump(1250)
+    }
+  });
+```
+{% endtab %}
+{% endtabs %}
