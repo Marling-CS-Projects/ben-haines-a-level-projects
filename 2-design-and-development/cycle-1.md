@@ -18,16 +18,30 @@ In this cycle I aim to create the basic mechanics for my game in Kaboom.js. I ha
 
 ### Key Variables
 
-| Variable Name | Use                   |
-| ------------- | --------------------- |
-| foo           | does something useful |
+| Variable Name | Use                                                                        |
+| ------------- | -------------------------------------------------------------------------- |
+| Speed         | Determines the Speed of the player.                                        |
+| .Grounded     | Determines whether or not the player is on the ground ready to jump again. |
+| .Jump         | Determines the Height that the player will jump.                           |
+| .Move         | Moves the player                                                           |
 
 ### Pseudocode
 
 ```
-procedure do_something
-    
-end procedure
+Speed = 100
+
+onKeyPress('D')[
+   player.move(Speed)
+   ]
+   
+onKeyPress('A')[
+   player.move(-Speed)
+   ]
+   
+onKeyPress('space')[
+   if player.grounded 
+     player.jump
+   ]
 ```
 
 ## Development
