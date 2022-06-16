@@ -8,7 +8,7 @@ In this cycle I aim to create the basic mechanics for my game in Kaboom.js. I ha
 
 * [x] Make the player sprite respond to Gravity &#x20;
 * [x] Add a floor that the player can't fall trough
-* [x] Have the player be able to move right and east
+* [x] Have the player be able to move right and left
 * [x] Have the player be able to sprint for a short burst&#x20;
 
 ### Usability Features
@@ -28,6 +28,9 @@ In this cycle I aim to create the basic mechanics for my game in Kaboom.js. I ha
 ### Pseudocode
 
 ```
+
+
+
 Speed = 100
 
 onKeyPress('D')[
