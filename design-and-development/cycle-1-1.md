@@ -1,30 +1,24 @@
-# 2.2.1 Cycle 1
+# 2.2.2 Cycle 2
 
 ## Design
 
 ### Objectives
 
-In this cycle I aim to create the basic mechanics for my game in Kaboom.js. I have made some basic sprites and I would like to be able to make my player sprite move, jump and fall due to gravity. For them to be able to move around I need to add a floor that stops the player falling straight through. If I can I would like to add a sprint feature in which the player moves at 2x speed.&#x20;
+In this cycle I aim to create the building blocks for my level by adding solid platforms that the player can traverse, and set up an easier way to build levels.
 
-* [x] Make the player sprite respond to Gravity &#x20;
-* [x] Add a floor that the player can't fall trough
-* [x] Have the player be able to move right and left
-* [x] Have the player be able to sprint for a short burst&#x20;
+* [x] Add a floor and platforms to the level
+* [x] Set up a better way of making levels&#x20;
 
 ### Usability Features
 
-* Controls - I will be using the standard controls for many PC games, WASD and SPACEBAR. A for left, D for right and SPACEBAR to jump. This is what most people are used to so it will be easy to pick up the controls.
-* Sprites - By making my player and platforms look like a person and a floor. This helps people clearly understand who they control and what is part of the level.
+* No new usability features.
 
 ### Key Variables
 
-| Variable Name | Use                                                                        |
-| ------------- | -------------------------------------------------------------------------- |
-| Speed         | Determines the Speed of the player.                                        |
-| .Grounded     | Determines whether or not the player is on the ground ready to jump again. |
-| .Jump         | Determines the Height that the player will jump.                           |
-| .Move         | Moves the player                                                           |
-| Pos()         | Position                                                                   |
+| Variable Name | Use                                                              |
+| ------------- | ---------------------------------------------------------------- |
+|               |                                                                  |
+| Solid         | Makes an object solid so that the player cannot fall through it. |
 
 ### Pseudocode
 
