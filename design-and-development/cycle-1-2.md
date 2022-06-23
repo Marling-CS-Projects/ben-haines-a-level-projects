@@ -1,13 +1,13 @@
-# 2.2.2 Cycle 2
+# 2.2.3 Cycle 3
 
 ## Design
 
 ### Objectives
 
-In this cycle I aim to create the building blocks for my level by adding solid platforms that the player can traverse, and set up an easier way to build levels.
+In this cycle I aim to create a better level, meaning I would like to add more platforms, a background and an ending point for at least one level.&#x20;
 
-* [x] Add a floor and platforms to the level
-* [x] Set up a better way of making levels&#x20;
+* [x] Add more floor and platforms to the level
+* [x] Add a way to end the level&#x20;
 
 ### Usability Features
 
@@ -24,13 +24,32 @@ In this cycle I aim to create the building blocks for my level by adding solid p
 ### Pseudocode
 
 ```
-add( 'Platform' {
-      Solid()
-      Area()
-      Scale()
-      Pos(10,10)
-      }
-)
+const LEVELS = [
+  [
+    "                     PP                         ",
+    "    PP                            PP            ",
+    "                                              E ",
+    "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+    ]
+    
+  "G": () => [
+    sprite("ground"),
+    area(),
+    solid(),
+    "ground"
+  ],
+  "P": () => [
+    sprite("Platform"),
+    area(),
+    solid(),
+    "Platform"
+  ],
+  "E": () => [
+    sprite("End"),
+    area(),
+    solid(),
+    "End"
+  ],
 ```
 
 ## Development
@@ -66,10 +85,10 @@ const LEVELS = [
     "                                                ",
     "                                                ",
     "                                                ",
-    "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+    "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
     ]
     
-      "G": () => [
+      "P": () => [
     sprite("ground"),
     area(),
     solid(),
