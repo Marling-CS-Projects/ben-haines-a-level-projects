@@ -4,12 +4,11 @@
 
 ### Objectives
 
-In this cycle I aim to create a better level, meaning I would like to add more platforms, a background and an ending point for at least one level.&#x20;
+In this cycle I aim to create a better level, meaning I would like to add more platforms, a background and an ending point for at least one level.
 
 * [x] Add more floors and platforms to the level
 * [x] Add a Background
-*
-* [x] Add a way to end the level&#x20;
+* [x] Add a way to end the level
 
 ### Usability Features
 
