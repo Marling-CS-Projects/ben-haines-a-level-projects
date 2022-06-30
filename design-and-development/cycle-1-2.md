@@ -6,7 +6,9 @@
 
 In this cycle I aim to create a better level, meaning I would like to add more platforms, a background and an ending point for at least one level.&#x20;
 
-* [x] Add more floor and platforms to the level
+* [x] Add more floors and platforms to the level
+* [x] Add a Background
+*
 * [x] Add a way to end the level&#x20;
 
 ### Usability Features
@@ -50,6 +52,11 @@ const LEVELS = [
     solid(),
     "End"
   ],
+  
+  Player.collides(End) {
+    Player.freeze
+    nextLevel
+  }
 ```
 
 ## Development
@@ -60,7 +67,9 @@ I can now add platforms into my level that my player can walk on and not fall th
 
 ### Challenges
 
-Due to the simplicity of Kaboom.js there wasn't much of a challenge to making the levels.
+I found it quite difficult to get the actual level to end - it keeps coming up with a "player has already been declared" error.
+
+The player.Freeze function would not work despite it being declared.
 
 ## Testing
 
@@ -75,27 +84,6 @@ Evidence for testing
 
 ### Evidence
 
-![](<../.gitbook/assets/image (6).png>)
-
-{% tabs %}
-{% tab title="First Tab" %}
 ```
-const LEVELS = [
-  [
-    "                                                ",
-    "                                                ",
-    "                                                ",
-    "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP",
-    ]
-    
-      "P": () => [
-    sprite("ground"),
-    area(),
-    solid(),
-    origin("bot"),
-    "ground"
-  ],
-
+// Some code
 ```
-{% endtab %}
-{% endtabs %}
