@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Some Generic Project](README.md)
+* [2D Platformer -  Aventuras de un walt plano: ¡consigue tu dinero!](README.md)
 
 ## 1 Analysis <a href="#analysis" id="analysis"></a>
 
