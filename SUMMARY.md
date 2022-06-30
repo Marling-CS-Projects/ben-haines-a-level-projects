@@ -1,6 +1,6 @@
 # Table of contents
 
-* [2D Platformer -  Aventuras de un Walt plano: ¡consigue tu dinero!](README.md)
+* [2D Platformer - Las aventuras de un Walt plano: ¡consigue tu dinero!](README.md)
 
 ## 1 Analysis <a href="#analysis" id="analysis"></a>
 
