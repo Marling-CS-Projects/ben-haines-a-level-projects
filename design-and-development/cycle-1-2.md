@@ -91,7 +91,7 @@ Evidence for testing
 ```
 const LEVELS = [
   [
-    "                   pp                           ",
+    " BB                  pp                         ",
     "  pp                             pp             ",
     "                                           CC   ",
     "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
@@ -117,7 +117,14 @@ const LEVELS = [
     solid(),
     origin("bot"),
     "CashBarrel"
-  ],    
+  ], 
+  "B": () => [
+    sprite("Background"),
+    area(),
+    solid(),
+    origin("bot"),
+    "Background"
+  ],     
   
   
   
