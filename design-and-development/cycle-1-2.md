@@ -88,6 +88,8 @@ Evidence for testing
 
 ### Evidence
 
+![](<../.gitbook/assets/image (8).png>)
+
 ```
 const LEVELS = [
   [
@@ -122,6 +124,7 @@ const LEVELS = [
     sprite("Background"),
     area(),
     solid(),
+    layer(bg),
     origin("bot"),
     "Background"
   ],     
