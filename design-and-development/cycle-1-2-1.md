@@ -4,9 +4,11 @@
 
 ### Objectives
 
+In this cycle i aim to add Enemies that can move around and damage / kill the player on colliding with the player.
 
-
-*
+* [x] Add an Enemy&#x20;
+* [x] Make the Enemy move&#x20;
+* [x] Make the Enemy kill the player on collide
 
 ### Usability Features
 
