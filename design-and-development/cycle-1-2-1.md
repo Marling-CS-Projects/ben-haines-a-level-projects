@@ -4,11 +4,10 @@
 
 ### Objectives
 
-In this cycle i aim to add Enemies that can move around and damage / kill the player on colliding with the player.
+In this cycle i aim to have the camera move with the player both along the y and x axis.
 
-* [x] Add an Enemy&#x20;
-* [x] Make the Enemy move&#x20;
-* [x] Make the Enemy kill the player on collide
+* [x] Have the camera move with the player along the X axis &#x20;
+* [x] Have the camera move with the player along the Y axis&#x20;
 
 ### Usability Features
 
