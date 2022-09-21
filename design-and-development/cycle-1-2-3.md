@@ -4,9 +4,11 @@
 
 ### Objectives
 
-I aim to make the enemy kill the player upon colliding with them.
+I aim to make the enemy kill the player upon colliding with them, and after the player has died display a you lose screen + stop the level.
 
-* [x] &#x20;Level stops when the player collides with an enemy
+* [x] Level stops when the player collides with an enemy
+* [ ] Player Dies on collision with the enemy.
+* [x] Display a you lose screen.
 
 ### Usability Features
 
@@ -14,16 +16,17 @@ I aim to make the enemy kill the player upon colliding with them.
 
 ### Key Variables
 
-| Variable Name | Use |
-| ------------- | --- |
-|               |     |
-|               |     |
-|               |     |
+| Variable Name | Use                                                  |
+| ------------- | ---------------------------------------------------- |
+| .onCollide    |  if the thing specified collides with something else |
 
 ### Pseudocode
 
 {% code lineNumbers="true" %}
 ```
+Walt.onCollide("Enemy", (Enemy) => {
+Walt.die
+});
 ```
 {% endcode %}
 
@@ -31,17 +34,13 @@ I aim to make the enemy kill the player upon colliding with them.
 
 ### Outcome
 
-
+I've managed to make it so that when the player collides with the enemy the level will stop and display a 'Game Over' Screen, i have not, however, been able to make the player actually die upon colliding. Having the player actually die, though, would be somewhat redundant as the level stops anyway so it isn't that much of an issue.
 
 ### Challenges
 
-
-
-&#x20;
+I haven't managed to make the character die upon colliding as of yet, as '.die' is not necessarily a part of the Kaboom.js library and I need to create a 'killed' function, again this isnt necessarily important as the level just ends but i would like to add it at some point&#x20;
 
 ## Testing
-
-
 
 ### Tests
 
