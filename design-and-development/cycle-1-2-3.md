@@ -44,18 +44,21 @@ I haven't managed to make the character die upon colliding as of yet, as '.die' 
 
 ### Tests
 
-| Test | Instructions  | What I expect | What actually happens | Pass/Fail |
-| ---- | ------------- | ------------- | --------------------- | --------- |
-| 1    | Run Code      |               |                       | Pass      |
-| 2    | Run Code      |               |                       | Fail      |
-| 3    | Run Code      |               |                       | Fail      |
-| 4    | Run Code      |               |                       | Fail      |
-| 5    | Run New Code  |               |                       | Pa        |
-|      |               |               |                       | Pass      |
+| Test | Instructions                                  | What I expect                                | What actually happens                      | Pass/Fail |
+| ---- | --------------------------------------------- | -------------------------------------------- | ------------------------------------------ | --------- |
+| 1    | Run Code                                      | Player to 'die' on colliding with the enemy  | Error message 'Walt.die' is not a function | Fail      |
+| 2    | Run New Code                                  | Player to 'die' on colliding with the enemy  | Error message 'Walt.die' is not a function | Fail      |
+| 3    | Run Code with scene code and no die function  |                                              |                                            | Fail      |
+|      |                                               |                                              |                                            | Pass      |
 
 ### Evidence
 
-<pre data-line-numbers><code><strong>
-</strong></code></pre>
+{% code lineNumbers="true" %}
+```
+Walt.collides("Enemy", (Enemy) => {
+    go("lose")
+  });
+```
+{% endcode %}
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>The Death Screen</p></figcaption></figure>
