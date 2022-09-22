@@ -92,4 +92,4 @@ I still cant get the enemy sprites to 'flip' upon changing direction, although i
 </strong>};
 </code></pre>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
