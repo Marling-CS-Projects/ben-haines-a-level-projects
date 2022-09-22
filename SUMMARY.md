@@ -21,7 +21,7 @@
 * [2.2.4 Cycle 4](design-and-development/cycle-1-2-1.md)
 * [2.2.5 Cycle 5](design-and-development/cycle-1-2-2.md)
 * [2.2.6 Cycle 6](design-and-development/cycle-1-2-3.md)
-* [Copy of 2.2.6 Cycle 6](design-and-development/cycle-1-2-4.md)
+* [2.2.7 Cycle 7](design-and-development/cycle-1-2-4.md)
 * [Copy of Copy of 2.2.6 Cycle 6](design-and-development/cycle-1-2-5.md)
 * [Copy of Copy of Copy of 2.2.6 Cycle 6](design-and-development/cycle-1-2-6.md)
 * [Copy of Copy of Copy of Copy of 2.2.6 Cycle 6](design-and-development/cycle-1-2-7.md)
