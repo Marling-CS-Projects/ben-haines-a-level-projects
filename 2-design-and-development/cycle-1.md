@@ -4,12 +4,12 @@
 
 ### Objectives
 
-In this cycle I aim to create the basic mechanics for my game in Kaboom.js. I have made some basic sprites and I would like to be able to make my player sprite move, jump and fall due to gravity. For them to be able to move around I need to add a floor that stops the player falling straight through. If I can I would like to add a sprint feature in which the player moves at 2x speed.&#x20;
+In this cycle I aim to create the basic mechanics for my game in Kaboom.js. I have made some basic sprites and I would like to be able to make my player sprite move, jump and fall due to gravity. For them to be able to move around I need to add a floor that stops the player falling straight through. If I can I would like to add a sprint feature in which the player moves at 2x speed.
 
-* [x] Make the player sprite respond to Gravity &#x20;
+* [x] Make the player sprite respond to Gravity
 * [x] Add a floor that the player can't fall trough
 * [x] Have the player be able to move right and left
-* [x] Have the player be able to sprint for a short burst&#x20;
+* [ ] Have the player be able to sprint for a short burst
 
 ### Usability Features
 
@@ -64,10 +64,10 @@ Evidence for testing
 
 ### Tests
 
-| Test | Instructions  | What I expect       | What actually happens                                                                                        | Pass/Fail |
-| ---- | ------------- | ------------------- | ------------------------------------------------------------------------------------------------------------ | --------- |
-| 1    | Run code      | Player to spawn In  | The Player Spawned as expected.                                                                              | Pass      |
-| 2    | Press buttons | Player to move      | The player does move in both directions and jumps but the sprite  does not flip (this is not too big a deal) | Pass      |
+| Test | Instructions  | What I expect      | What actually happens                                                                                       | Pass/Fail |
+| ---- | ------------- | ------------------ | ----------------------------------------------------------------------------------------------------------- | --------- |
+| 1    | Run code      | Player to spawn In | The Player Spawned as expected.                                                                             | Pass      |
+| 2    | Press buttons | Player to move     | The player does move in both directions and jumps but the sprite does not flip (this is not too big a deal) | Pass      |
 
 ### Evidence
 
@@ -76,7 +76,6 @@ Evidence for testing
 {% tabs %}
 {% tab title="First Tab" %}
 ```
-
   const SPEED = 500;
 
   keyDown("d", () => {

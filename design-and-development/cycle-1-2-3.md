@@ -61,4 +61,4 @@ Walt.collides("Enemy", (Enemy) => {
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>The Death Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>The Death Screen</p></figcaption></figure>
