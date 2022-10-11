@@ -37,7 +37,7 @@ player.onCollide("obstacle") {
 
 This cycle wasn't too difficult because it was essentially the same code as enemies - just removing the patrol function. However because of how you add sprites and how you use the '.onCollide' function I had a small problem&#x20;
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Challenges
 
