@@ -7,7 +7,7 @@
 In this cycle I aim to create the building blocks for my level by adding solid platforms that the player can traverse, and set up an easier way to build levels.
 
 * [x] Add a floor and platforms to the level
-* [x] Set up a better way of making levels&#x20;
+* [x] Set up a better way of making levels
 
 ### Usability Features
 
@@ -76,7 +76,6 @@ const LEVELS = [
     origin("bot"),
     "ground"
   ],
-
 ```
 {% endtab %}
 {% endtabs %}
