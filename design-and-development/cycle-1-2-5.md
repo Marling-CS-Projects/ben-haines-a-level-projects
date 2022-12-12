@@ -4,11 +4,10 @@
 
 ### Objectives
 
+Adding an exit to my level. The player on colliding with the exit sprite will be taken through to the next level.
 
-
-* [x] &#x20;
-*
-*
+* [x] &#x20;Adds an exit
+* [x] Takes the player to the next level.
 
 ### Usability Features
 
