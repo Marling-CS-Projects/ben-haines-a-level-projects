@@ -24,10 +24,11 @@ Add a way for the player to kill/destroy enemies. This would probably be a gun, 
 
 {% code lineNumbers="true" %}
 ```
-function spawnBullet (
+function spawnBullet {
    add("Bullet")
    pos(x, y)
    move(right, bullet_speed)
+}
 ```
 {% endcode %}
 
