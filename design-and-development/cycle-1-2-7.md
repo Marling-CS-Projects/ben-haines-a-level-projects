@@ -1,14 +1,13 @@
 # 2.2.10 Cycle 10
 
-## Design
+Design
 
 ### Objectives
 
+Add a way for the player to kill/destroy enemies. This would probably be a gun, naturally, this gun will fire bullets that move away from the player at a constant speed until they hit something.
 
-
-* [x] &#x20;
-*
-*
+* [x] &#x20;Player has a gun that can shoot
+* [x] Bullets will move in the direction the player is facing
 
 ### Usability Features
 
@@ -16,16 +15,19 @@
 
 ### Key Variables
 
-| Variable Name | Use |
-| ------------- | --- |
-|               |     |
-|               |     |
-|               |     |
+| Variable Name | Use                                              |
+| ------------- | ------------------------------------------------ |
+| Bullet\_Speed |  Declares a constant value for the bullet speed. |
+|               |                                                  |
 
 ### Pseudocode
 
 {% code lineNumbers="true" %}
 ```
+function spawnBullet (
+   add("Bullet")
+   pos(x, y)
+   move(right, bullet_speed)
 ```
 {% endcode %}
 
