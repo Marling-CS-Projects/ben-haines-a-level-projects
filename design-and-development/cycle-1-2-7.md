@@ -24,6 +24,12 @@ Add a way for the player to kill/destroy enemies. This would probably be a gun, 
 
 {% code lineNumbers="true" %}
 ```
+Bullet_Speed = 1000
+
+Onkeypress ("space") {
+   spawnBullet 
+};
+          
 function spawnBullet {
    add("Bullet")
    pos(x, y)
@@ -36,7 +42,7 @@ function spawnBullet {
 
 ### Outcome
 
-
+&#x20;
 
 ### Challenges
 
