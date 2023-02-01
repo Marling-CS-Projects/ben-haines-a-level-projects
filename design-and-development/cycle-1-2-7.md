@@ -42,7 +42,7 @@ function spawnBullet {
 
 ### Outcome
 
-&#x20;
+&#x20;The bullets&#x20;
 
 ### Challenges
 
